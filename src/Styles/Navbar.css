@@ -1,0 +1,77 @@
+/* App.css */
+
+/* Estilo para el cuerpo de la aplicación */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 243, 243);
+  }
+  
+  /* Estilo para la Navbar */
+  .navbar {
+    background-color: #252323;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  /* Estilo para el logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Estilo para la sección de búsqueda */
+  .search-input {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    gap: 10px;
+  }
+  
+  .input-navbar {
+    margin-top: 8px;
+    height: 15px;
+  }
+  
+  /* Estilos para el input de búsqueda */
+  .search-input input {
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para el botón de búsqueda */
+  .search-input button {
+    padding: 8px 15px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para los enlaces de navegación */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Estilos para los enlaces de navegación */
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para los enlaces de navegación al pasar el cursor */
+  .nav-links a:hover {
+    background-color: #787e83;
+  }
+  

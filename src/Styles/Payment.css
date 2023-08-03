@@ -1,0 +1,94 @@
+/* Payment.css */
+.payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: dodgerblue;
+  }
+  
+  .payment-card {
+    background-color: #333333; 
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  
+  .payment-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .payment-title {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .card-icons {
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    color: #95a5a6; 
+    font-size: 50px;
+  }
+  
+  .payment-button {
+    background-color: #2596e2; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 20px;
+  }
+  
+  .payment-button:hover {
+    background-color: #2186c4; 
+  }
+  
+  .card-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .expiration-cvv {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .expiration,
+  .cvv {
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  
+  /* Styles for error messages */
+.error-message {
+    font-size: 14px;
+    color: #e74c3c;
+    margin-top: 5px;
+  }

@@ -1,0 +1,126 @@
+/* Product.css */
+.product {
+  width: 350px;
+  height: 730px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.product-image {
+  width: 250px;
+  height: 300px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-details {
+  text-align: center;
+  flex: 1;
+}
+
+.product-title {
+  font-size: 20px;
+  font-weight: bold;
+  max-height: 90px;
+  margin-bottom: 10px;
+  margin-top: 70px;
+  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.product-description-container {
+  height: 100px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 15px;
+  max-height: 150px;
+  font-weight: bold;
+  color: #555;
+  margin-top: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-price {
+  font-size: 30px;
+  font-weight: bold;
+  max-height: 50px;
+  margin-bottom: 20px;
+  margin-top: 35px;
+  color: #ff9900;
+}
+
+.product-actions {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.quantity-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #f1f1f1;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+}
+
+.quantity {
+  font-size: 20px;
+  min-width: 40px;
+  text-align: center;
+  background-color: #2186c4;
+  color: white;
+  border: 1px solid;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.quantity-button:hover {
+  background-color: #969494;
+  transform: scale(1.1);
+}
+
+.add-to-cart {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #2186c4;
+}
+
+/* Media queries ... */
